@@ -17,8 +17,6 @@ yarn
 
 # start
 cd my-app
-cp .envrc.template .envrc
-direnv allow .
 
 # start
 yarn run start
@@ -41,8 +39,6 @@ yarn
 
 # directory
 cd my-app
-cp .envrc.template .envrc
-direnv allow .
 
 # start
 yarn run start
