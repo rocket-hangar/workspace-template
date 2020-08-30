@@ -5,8 +5,12 @@ function precommit(...workspaces) {
 module.exports = {
   hooks: {
     'pre-commit': [
-      `markdown-source-import "{,!(node_modules)/**/}*.md" --git-add`,
+      // auto source import every markdown documents
+      // @see https://www.npmjs.com/package/@handbook/markdown-source-import
+      `markdown-source-import "**/*.md" --git-add`,
+      // see "lint-staged" on "package.json"
       `lint-staged`,
+      // run workspaces precommit hook
       //...precommit(`source`),
     ].join(' && '),
   },
