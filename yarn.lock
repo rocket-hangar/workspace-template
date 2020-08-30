@@ -108,13 +108,13 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@handbook/markdown-source-import@^1.0.0-alpha.7":
-  version "1.0.0-alpha.7"
-  resolved "https://registry.npmjs.org/@handbook/markdown-source-import/-/markdown-source-import-1.0.0-alpha.7.tgz#855a989f1efd558151881da16e47e478fb1e35dd"
-  integrity sha512-lucOe3ixHcOIbx9qMqrR3mpgaf2ZoHSSbjSXbN6kPjkdtNYKRv2DDbhlaBinKfzyJdEWMV6TCHL9fwUtuWtFxA==
+"@handbook/markdown-source-import@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@handbook/markdown-source-import/-/markdown-source-import-1.0.0.tgz#88d84ca5f965347946d78153a79d6b2c74f95c89"
+  integrity sha512-uw6C7W7paza8jUqwpwPn1Y6LdQb83f8f3JojKYXGzvGKqi5DVeoWIimHhLOY4UlkJCSXkuTeSwcbczBLJn8gPA==
   dependencies:
-    "@handbook/remark-magic-comments" "^1.0.0-alpha.6"
-    "@handbook/remark-split-html-lines" "^1.0.0-alpha.6"
+    "@handbook/remark-magic-comments" "^1.0.0"
+    "@handbook/remark-split-html-lines" "^1.0.0"
     "@ssen/promised" "^2.2.3"
     fs-extra "^9.0.1"
     lodash.flattendeep "^4.4.0"
@@ -125,13 +125,13 @@
     unified "^9.2.0"
     yargs "^15.4.1"
 
-"@handbook/remark-magic-comments@^1.0.0-alpha.6":
-  version "1.0.0-alpha.6"
-  resolved "https://registry.npmjs.org/@handbook/remark-magic-comments/-/remark-magic-comments-1.0.0-alpha.6.tgz#8f9b1bf3defe2629572718ad2360afa7284a271b"
-  integrity sha512-sGPmoL2VbShDVScspZJ0hTvNMD7wXqsoPLewFvNFSOItFToFZO3K3iF+50cyXA2MGyqOCbTCyI8rm9ko84EO9w==
+"@handbook/remark-magic-comments@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@handbook/remark-magic-comments/-/remark-magic-comments-1.0.0.tgz#0de2ca781e068cc86479c0dbda59d98a0874ce9e"
+  integrity sha512-TVghvwMguwi26H6SBYK/Qa9SJsssxOQUX/V5/0+W4XJ9QM6xviWSe3wGT8NRPa2d4TAoyXq2U4y6eoAcg1zZyA==
   dependencies:
-    "@handbook/remark-node-types" "^1.0.0-alpha.6"
-    "@handbook/typescript-source-sampler" "^1.0.0-alpha.6"
+    "@handbook/remark-node-types" "^1.0.0"
+    "@handbook/typescript-source-sampler" "^1.0.0"
     "@ssen/promised" "^2.2.3"
     fs-extra "^9.0.1"
     lodash.flattendeep "^4.4.0"
@@ -139,23 +139,23 @@
     unified "^9.2.0"
     yargs-parser "^19.0.4"
 
-"@handbook/remark-node-types@^1.0.0-alpha.6":
-  version "1.0.0-alpha.6"
-  resolved "https://registry.npmjs.org/@handbook/remark-node-types/-/remark-node-types-1.0.0-alpha.6.tgz#f844cbbfeb39e38f8d1706d4664c9719985a1576"
-  integrity sha512-bTbFizV9rDV02GqlWPkmhn81W5x2inR9yWDPfYhDbXqZjc5F9X8rTQNbG6vIcmXzJZVsHPCcRYvWR+xOEGV+5Q==
+"@handbook/remark-node-types@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@handbook/remark-node-types/-/remark-node-types-1.0.0.tgz#4380a0161c9cae186825a11ef0f0a8e664ef407f"
+  integrity sha512-xm4zQsrtE5GX3+tNMRPe0szP16mZE67+6MSlA5IWYn7erDOWYmeOHvGvdjCyeL2L92548FqjwF/v8AYXNsFEsQ==
 
-"@handbook/remark-split-html-lines@^1.0.0-alpha.6":
-  version "1.0.0-alpha.6"
-  resolved "https://registry.npmjs.org/@handbook/remark-split-html-lines/-/remark-split-html-lines-1.0.0-alpha.6.tgz#b7c35de2f75299097a0890dc8892b53261203c68"
-  integrity sha512-pn2C/RBAoDYR2XpoN79K5Gm0julVAuFCoOB3j1xxA1I4sczduWgLxG4ZOu1nd0cL1frGYVHPWVw0jI4t4odgCw==
+"@handbook/remark-split-html-lines@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@handbook/remark-split-html-lines/-/remark-split-html-lines-1.0.0.tgz#d05013c0b3577ae9bd6709601d7775238a55127f"
+  integrity sha512-2sHp/i/DDaF7jVwWiSm1+sfNh8VTydss8iswwstYKOAhFUkzD3JY4tp1xd18x3/iPY8VyU2dsGVMOCOQpfAJVw==
   dependencies:
-    "@handbook/remark-node-types" "^1.0.0-alpha.6"
+    "@handbook/remark-node-types" "^1.0.0"
     unified "^9.2.0"
 
-"@handbook/typescript-source-sampler@^1.0.0-alpha.6":
-  version "1.0.0-alpha.6"
-  resolved "https://registry.npmjs.org/@handbook/typescript-source-sampler/-/typescript-source-sampler-1.0.0-alpha.6.tgz#6f226833cb64cf1214c592973243df7e3931fd3f"
-  integrity sha512-9+jxJJvYsf0tzsKUl/eoEg7lyxfy1YZCzThxry/17Oe8jqeiSSZpEy4fwk+3FmPEXQAgAY+Pk4Zc1+VOP0kILA==
+"@handbook/typescript-source-sampler@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@handbook/typescript-source-sampler/-/typescript-source-sampler-1.0.0.tgz#6d4fdb8f1ea348ab440f0d371b4e49494808c392"
+  integrity sha512-KhYSOdVdSzqYolAnbk6YdLJO+qTBU3bmuqiAIvaBATFX/o06GZjMpJXyVVks9tEltGsCYdizRBLgYs9yNa8/8A==
   dependencies:
     typescript "^4.0.2"
 
