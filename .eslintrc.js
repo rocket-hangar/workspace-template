@@ -1,3 +1,17 @@
 module.exports = {
-  extends: ['@ssen', 'prettier', 'prettier/react', 'prettier/@typescript-eslint'],
+  extends: [
+    '@ssen',
+    // TODO `yarn add eslint-config-react-app --dev`
+    //'react-app',
+    //'react-app/jest',
+    'prettier',
+  ],
+  //rules: {
+  //  'react-hooks/exhaustive-deps': [
+  //    'warn',
+  //    {
+  //      additionalHooks: '(useCustomHook)',
+  //    },
+  //  ],
+  //},
 };
