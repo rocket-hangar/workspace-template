@@ -4,6 +4,7 @@
   "author": "Name <id@mail.com>",
   "license": "MIT",
   "repository": "github:githubid/repository",
+  "workspaces": [],
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
     "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
