@@ -26,5 +26,7 @@ yarn-error.log*
 # output
 coverage/
 out/
+dev/
+build/
 test/storage/
 .eslintcache
