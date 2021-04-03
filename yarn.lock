@@ -271,9 +271,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ssen/eslint-config@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@ssen/eslint-config@npm:2.0.0"
+"@ssen/eslint-config@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@ssen/eslint-config@npm:2.0.1"
   dependencies:
     "@typescript-eslint/eslint-plugin": ^4.0.0
     "@typescript-eslint/parser": ^4.0.0
@@ -296,14 +296,14 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: c1c56168c638734ee40c12972cee417eb9106449041ff0ff977a52d45617baacc239b01e94edf3926d26cd6e85c43881500b950a1b807be0a7ddb253c5432faf
+  checksum: 0fb551126ff9f0a6b2fca734b9918af8a443995c30e50cf38c98e768901a2d2b8d6df7720ff08d1e25160de5089e13a5f51ace12e3442f29a6f6ebb08b1aed5c
   languageName: node
   linkType: hard
 
-"@ssen/prettier-config@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@ssen/prettier-config@npm:2.0.0"
-  checksum: 7018a6944de4995c2b83055b349d2d045ea1ffbf7e3c7675c4c7b244d360ac7e2c71c95897d460115acce0e0b2053f470268cee3bccb39e746affaaa10766dbe
+"@ssen/prettier-config@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@ssen/prettier-config@npm:2.0.1"
+  checksum: 5e85bcd2a943a040962664e3a916797756c4719fe2a06147de9cfca6b18f355318d5e3391a890b01fe42ddbbb8733d42199779e7d168397c3e8e7c17d8a219dd
   languageName: node
   linkType: hard
 
@@ -2881,8 +2881,8 @@ resolve@^2.0.0-next.3:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@handbook/markdown-source-import": ^1.1.0
-    "@ssen/eslint-config": ^2.0.0
-    "@ssen/prettier-config": ^2.0.0
+    "@ssen/eslint-config": ^2.0.1
+    "@ssen/prettier-config": ^2.0.1
     eslint: ^7.23.0
     husky: ^6.0.0
     lint-staged: ^10.5.4
