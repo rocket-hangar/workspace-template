@@ -1,9 +1,9 @@
 {
   "private": true,
-  "version": "2021.04.03",
+  "version": "2021.05.08",
   "author": "Name <id@mail.com>",
   "license": "MIT",
-  "repository": "github:githubid/repository",
+  "repository": "https://github.com/githubid/repository",
   "workspaces": [],
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
