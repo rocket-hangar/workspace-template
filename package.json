@@ -1,10 +1,9 @@
 {
   "private": true,
-  "version": "2021.05.08",
+  "version": "2021.06.03",
   "author": "Name <id@mail.com>",
   "license": "MIT",
   "repository": "https://github.com/githubid/repository",
-  "workspaces": [],
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
     "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
@@ -20,9 +19,9 @@
     "@handbook/markdown-source-import": "^1.1.0",
     "@ssen/eslint-config": "^2.0.1",
     "@ssen/prettier-config": "^2.0.1",
-    "eslint": "^7.26.0",
+    "eslint": "^7.27.0",
     "husky": "^6.0.0",
-    "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1"
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0"
   }
 }
